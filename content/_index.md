@@ -62,10 +62,10 @@ sections:
           date_start: '2023-03'
           date_end: ''
           description: |2-
-              I joined Gary Cottrell's lab 'GURU' as an undergraduate researcher.
-              Inspired from processed for primate vision, I am focusing on the implementation of divisive normalization using PyTorch.
+              * I joined Gary Cottrell's lab 'GURU' as an undergraduate researcher.
+              * Inspired from processed for primate vision, I am focusing on the implementation of divisive normalization using PyTorch.
 
-              Responsibilities include:
+              * Responsibilities include:
 
               * Implementing new algorithm through pytorch 
               * Planning research plan
