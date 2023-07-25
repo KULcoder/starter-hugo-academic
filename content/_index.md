@@ -54,27 +54,29 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Undergraduate Researcher
+          company: GURU, UC San Diego 
           company_url: ''
-          company_logo: org-gc
+          company_logo: UCSD
           location: California
-          date_start: '2021-01-01'
+          date_start: '2023-03'
           date_end: ''
           description: |2-
+              I joined Gary Cottrell's lab 'GURU' as an undergraduate researcher.
+              Inspired from processed for primate vision, I am focusing on the implementation of divisive normalization using PyTorch.
+
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Implementing new algorithm through pytorch 
+              * Planning research plan
+        # - title: Professor of Semiconductor Physics
+        #   company: University X
+        #   company_url: ''
+        #   company_logo: org-x
+        #   location: California
+        #   date_start: '2016-01-01'
+        #   date_end: '2020-12-31'
+        #   description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   # - block: accomplishments
