@@ -19,28 +19,28 @@ sections:
       title: Skills
       items:
         - name: Python
-          description: 90%
+          description: Advanced
           icon: python
           icon_pack: fab
-        - name: Machine Learning
-          description: 80%
-          icon: robot
-          icon_pack: fas
-        - name: Data Science
-          description: 70%
-          icon: chart-line
-          icon_pack: fas
-        - name: Deep Learning
-          description: 60%
-          icon: brain
-          icon_pack: fas
         - name: Java
-          description: 50%
+          description: Fluent
           icon: java
           icon_pack: fab
         - name: C
-          description: 40%
+          description: Fluent
           icon: code
+          icon_pack: fas
+        - name: Machine Learning
+          description: Sci-kit Learn, XGBoost
+          icon: robot
+          icon_pack: fas
+        - name: Data Science
+          description: Pandas, Numpy, Matplotlib
+          icon: chart-line
+          icon_pack: fas
+        - name: Deep Learning
+          description: Pytorch, Tensorflow
+          icon: brain
           icon_pack: fas
   - block: experience
     content:
