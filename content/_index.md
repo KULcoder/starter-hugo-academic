@@ -15,6 +15,7 @@ sections:
 
 
   - block: features
+    id: skills
     content:
       title: Skills
       items:
@@ -43,6 +44,7 @@ sections:
           icon: brain
           icon_pack: fas
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
