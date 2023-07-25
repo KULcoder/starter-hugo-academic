@@ -30,6 +30,10 @@ sections:
           description: 10%
           icon: camera-retro
           icon_pack: fas
+        - name: Machine Learning
+          description: 100%
+          icon: robot
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
