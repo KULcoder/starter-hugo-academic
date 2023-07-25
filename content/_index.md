@@ -34,6 +34,14 @@ sections:
           description: 60%
           icon: brain
           icon_pack: fas
+        - name: Java
+          description: 50%
+          icon: java
+          icon_pack: fab
+        - name: C
+          description: 40%
+          icon: code
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
