@@ -59,7 +59,7 @@ sections:
           company_url: ''
           company_logo: org-ucsd
           location: California
-          date_start: '2023-03'
+          date_start: '2023-03-01'
           date_end: ''
           description: |2-
               Responsibilities include:
