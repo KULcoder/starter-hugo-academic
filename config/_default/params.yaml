@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: earth
   theme_night: minimal
-  font: minimal
+  font: rose
   font_size: L
 
 # SEO
@@ -63,7 +63,7 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: earth
+    theme_light: github-light
     theme_dark: dracula
   math:
     enable: false
