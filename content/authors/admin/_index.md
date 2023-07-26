@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Keyu Long 龙柯宇
+title: **Keyu Long 龙柯宇**
 
 # Full name (for SEO)
 first_name: Keyu
