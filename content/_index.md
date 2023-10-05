@@ -36,11 +36,11 @@ sections:
           icon: robot
           icon_pack: fas
         - name: Data Science
-          description: Pandas, Numpy, Matplotlib
+          description: Pandas, NumPy, Matplotlib, SQL
           icon: chart-line
           icon_pack: fas
         - name: Deep Learning
-          description: Pytorch, Tensorflow
+          description: Pytorch
           icon: brain
           icon_pack: fas
   - block: experience
