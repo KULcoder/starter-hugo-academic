@@ -37,7 +37,13 @@ Dive deeper into the electronics reviews in Amazon Reviews Dataset (3,091,024 da
 
 ## Univariate Analysis
 - Basic statistics of each features
+
 Found that the reviews ratings are skewed to higher side and the helpful and total votes skewed to lower side.
 ### Review Date
 ![Review Date](images/review_dates.png)
+Review data are growing rapidly and causing a much larger portion of data points are clustered after 2012.
+![Review Weekdays](images/review_weekdays.png)
+- People actually like to write reviews on weekdays compares to weekends.
 
+### Review Word Cloud
+![Review Wordcloud](images/review_wordcloud.png)
