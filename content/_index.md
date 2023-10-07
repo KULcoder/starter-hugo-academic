@@ -165,6 +165,8 @@ sections:
           tag: Deep Learning
         - name: Other
           tag: Demo
+        - name: Data Analytics
+          tag: Data Analytics
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
