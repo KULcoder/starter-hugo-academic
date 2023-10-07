@@ -76,7 +76,33 @@ Using singular value decomposition, we can find latent factor representing each 
 
 ## Neural Network: Neural Collaborative Filtering
 Reference: https://arxiv.org/abs/1708.05031
+
 Direct use neural networks to find the relationships between users and items.
 - with `PyTorch` and `PyTorch Lightning`
 
 **Mean Squared Error**: 0.701
+
+# Section 3: NLP with BERT
+
+**Problem Statement**: Given the review content, predict the rating and is this a positive or negative rating?
+
+## TF-IDF with Logistic Regression
+
+- with `Sci-Kit Learn`
+
+**Sentiment Accuracy**: 91.95%
+
+### Confusion Matrix
+![tfidf Confusion Matrix](images/tfidf_confusion.png)
+
+## BERT
+Reference: https://arxiv.org/abs/1810.04805
+
+Using the BERT model (part of transformers), and transfer learning techniques.
+
+**Sentiment Accuracy**: 98.34%
+
+### Confusion Matrix
+![BERT Confusion Matrix](images/bert_confusion.png)
+
+
