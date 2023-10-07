@@ -26,26 +26,26 @@ url_video: ''
 slides: ""
 ---
 
-(Detailed methods and results in source code)
+(Detailed methods and results can be found in the source code.)
 
 # Section 1: EDA
 
-Dive deeper into the electronics reviews in Amazon Reviews Dataset (3,091,024 data points).
+Delve into the electronics reviews from the Amazon Reviews Dataset, which comprises 3,091,024 data points.
 
 ## Cleaning the data
-- Missing Values
-- Duplicate Values
-- Irrelevant Data
+- Address missing values
+- Remove duplicate values
+- Filter out irrelevant data
 
 ## Univariate Analysis
-- Basic statistics of each features
+- Evaluate basic statistics for each feature
 
-Found that the reviews ratings are skewed to higher side and the helpful and total votes skewed to lower side.
+It was observed that review ratings lean towards the higher end, whereas helpful and total votes are skewed towards the lower end.
 ### Review Date
 ![Review Date](images/review_dates.png)
-Review data are growing rapidly and causing a much larger portion of data points clustered after 2012.
+There's a rapid growth in review data, leading to a significant concentration of data points after 2012.
 ![Review Weekdays](images/review_weekdays.png)
-People likes to write reviews on weekdays compares to weekends.
+Users tend to write reviews on weekdays compared to weekends.
 
 ### Review Word Cloud
 ![Review Wordcloud](images/review_wordcloud.png)
@@ -57,34 +57,34 @@ People likes to write reviews on weekdays compares to weekends.
 
 ### Ratings vs. Review Length
 ![Rating Length](images/review_length_rating.png)
-Notice that lowest and highest ratings generally have a shorter review length.
+It's noticeable that both the lowest and highest ratings typically correspond to shorter review lengths.
 
 # Section 2: Recommender System
 
-**Problem Statement**: Given an user-item pair, predict how will this user rate this item.
+**Problem Statement**: For a given user-item pair, how will the user rate this item?
 
 ## Similarity Based Model
-By using Jaccard similarity, we estimate their similarities. 
+Utilizing the Jaccard similarity metric, their similarities can be estimated.
 
 **Mean Squared Error**: 1.947
 
 ## Latent Factor Model
-Using singular value decomposition, we can find latent factor representing each user/item.
+Through singular value decomposition, latent factors representing each user or item can be discerned.
 - with `surprise`
 
 **Mean Squared Error**: 1.689
 
 ## Neural Network: Neural Collaborative Filtering
-Reference: https://arxiv.org/abs/1708.05031
+Reference: [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
 
-Direct use neural networks to find the relationships between users and items.
+Leverage neural networks to uncover relationships between users and items.
 - with `PyTorch` and `PyTorch Lightning`
 
 **Mean Squared Error**: 0.701
 
 # Section 3: NLP with BERT
 
-**Problem Statement**: Given the review content, predict the rating and is this a positive or negative rating?
+**Problem Statement**: Based on the review content, can we predict the rating and determine whether it's positive or negative?
 
 ## TF-IDF with Logistic Regression
 
@@ -96,7 +96,7 @@ Direct use neural networks to find the relationships between users and items.
 ![tfidf Confusion Matrix](images/tfidf_confusion.png)
 
 ## BERT
-Reference: https://arxiv.org/abs/1810.04805
+Reference: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 
 Using the BERT model (part of transformers), and transfer learning techniques.
 
