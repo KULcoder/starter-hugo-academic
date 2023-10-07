@@ -26,6 +26,8 @@ url_video: ''
 slides: ""
 ---
 
+(Detailed methods and results in source code)
+
 # Section 1: EDA
 
 Dive deeper into the electronics reviews in Amazon Reviews Dataset (3,091,024 data points).
@@ -41,9 +43,37 @@ Dive deeper into the electronics reviews in Amazon Reviews Dataset (3,091,024 da
 Found that the reviews ratings are skewed to higher side and the helpful and total votes skewed to lower side.
 ### Review Date
 ![Review Date](images/review_dates.png)
-Review data are growing rapidly and causing a much larger portion of data points are clustered after 2012.
+Review data are growing rapidly and causing a much larger portion of data points clustered after 2012.
 ![Review Weekdays](images/review_weekdays.png)
-- People actually like to write reviews on weekdays compares to weekends.
+People likes to write reviews on weekdays compares to weekends.
 
 ### Review Word Cloud
 ![Review Wordcloud](images/review_wordcloud.png)
+
+## Multivariate Analysis
+
+### Ratings vs. Brands
+![Rating Brands](images/rating_brands.png)
+
+### Ratings vs. Review Length
+![Rating Length](images/review_length_rating.png)
+Notice that lowest and highest ratings have a shorter review length.
+
+# Section 2: Recommender System
+
+**Problem Statement**: Given an user-item pair, predict how will this user rate this item.
+
+## Similarity Based Model
+By using Jaccard similarity, we estimate their similarities. 
+**Mean Squared Error**: 1.947
+
+## Latent Factor Model
+Using singular value decomposition, we can find latent factor representing each user/item.
+- with `surprise`
+**Mean Squared Error**: 1.689
+
+## Neural Network: Neural Collaborative Filtering
+Reference: https://arxiv.org/abs/1708.05031
+Direct use neural networks to find the relationships between users and items.
+- with `PyTorch` and `PyTorch Lightning`
+**Mean Squared Error**: 0.701
