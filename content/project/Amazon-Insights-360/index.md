@@ -57,7 +57,7 @@ People likes to write reviews on weekdays compares to weekends.
 
 ### Ratings vs. Review Length
 ![Rating Length](images/review_length_rating.png)
-Notice that lowest and highest ratings have a shorter review length.
+Notice that lowest and highest ratings generally have a shorter review length.
 
 # Section 2: Recommender System
 
@@ -65,15 +65,18 @@ Notice that lowest and highest ratings have a shorter review length.
 
 ## Similarity Based Model
 By using Jaccard similarity, we estimate their similarities. 
+
 **Mean Squared Error**: 1.947
 
 ## Latent Factor Model
 Using singular value decomposition, we can find latent factor representing each user/item.
 - with `surprise`
+
 **Mean Squared Error**: 1.689
 
 ## Neural Network: Neural Collaborative Filtering
 Reference: https://arxiv.org/abs/1708.05031
 Direct use neural networks to find the relationships between users and items.
 - with `PyTorch` and `PyTorch Lightning`
+
 **Mean Squared Error**: 0.701
