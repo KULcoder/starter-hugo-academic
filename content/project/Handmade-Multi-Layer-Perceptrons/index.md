@@ -33,9 +33,8 @@ slides: ""
 Back propagation is the one of the foundations of modern deep neural network. In this project, back propagation is implemented by following rules:
 
 Learning Rule: 
-$$
-w_{ij} = w_{ij} - \alpha \frac{\partial J}{\partial w_{ij}} = w_{ij} +\alpha \delta_j z_i
-$$
+
+$w_{ij} = w_{ij} - \alpha \frac{\partial J}{\partial w_{ij}} = w_{ij} +\alpha \delta_j z_i$
 
 Definition on $\delta$ (recursively):
 
