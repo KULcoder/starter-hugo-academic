@@ -67,7 +67,7 @@ sections:
               Responsibilities include:
 
               * Implementing new algorithm through pytorch 
-              * Planning research plan
+              * Creating research plan
         # - title: Professor of Semiconductor Physics
         #   company: University X
         #   company_url: ''
@@ -163,10 +163,10 @@ sections:
           tag: '*'
         - name: Deep Learning
           tag: Deep Learning
-        - name: Other
-          tag: Demo
         - name: Data Analytics
           tag: Data Analytics
+        - name: Data Vis
+          tag: Data Visualization
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
