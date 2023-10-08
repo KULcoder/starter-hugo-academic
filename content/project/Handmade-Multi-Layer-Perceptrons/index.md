@@ -36,14 +36,6 @@ Back propagation is the one of the foundations of modern deep neural network. In
 ## Activation Functions
 Three types of activation functions are implemented: 'sigmoid', 'tanh', 'ReLU'
 
-## Stochastic Gradient Descent
-
-### Early Stopping Mechanism
-Evaluate and early stop by validation loss value.
-
-### Cross Entropy Loss
-Used for multi-class classification.
-
 ## Momentum Method
 Using accumulated gradient which can theoretically accelerate the training and avoid local minimum.
 
