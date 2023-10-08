@@ -29,27 +29,29 @@ slides: ""
 # Implementation
 
 ## Back-Propagation
-Back propagation is the one of the foundations of modern deep neural network. In this project, back propagation is implemented by following rules:
+Back-propagation is one of the cornerstones of modern deep neural networks. In this project, we implement back-propagation by adhering to the following rules:
 
 ![Learning Rule](images/formula.png)  
 
 ## Activation Functions
-Three types of activation functions are implemented: 'sigmoid', 'tanh', 'ReLU'
+Three activation functions have been implemented: 'sigmoid', 'tanh', and 'ReLU'.
 
 ## Momentum Method
-Using accumulated gradient which can theoretically accelerate the training and avoid local minimum.
+This method uses an accumulated gradient, which can theoretically accelerate training and help avoid local minima.
 
 ## Regularization
-Both L1 and L2 regularization method is implemented.
+Both L1 and L2 regularization methods have been implemented.
 
 # Performance
 
 ## CIFAR-10
 Source: [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
+
 **Test Accuracy**: ~50%
 
 ## MNIST
 Source: [MNIST](https://www.openml.org/search?type=data&status=active&id=554)
+
 **Test Accuracy**: ~97%
 
 # How to Use
@@ -57,7 +59,7 @@ Source: [MNIST](https://www.openml.org/search?type=data&status=active&id=554)
   - NeuralNet.py
   - Util.py
   - PersonalMLP.py
-2. Check this template
+2. Use this template
 
   ```python
    import PersonalMLP
