@@ -11,4 +11,5 @@ external_link: https://kulcoder.github.io/baidu_search_trend/
 image:
   caption: Photo by MidJourney
   focal_point: Smart
+
 ---
