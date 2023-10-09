@@ -30,16 +30,16 @@ slides: ""
 # EDA
 
 ## Business Rating Maps
+Unveil a geographical distribution of business ratings.
 ![Business Rating Maps](images/business_rating_maps.png)
 
 ## Review Word Cloud
+Visual representation of frequently mentioned words in reviews.
 ![Word Cloud](images/word_cloud.png)
 
 # Model Pipeline
 
-Review text data is encoded by [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) and reduced dimensions by PCA.
-
-- Then the data is passed into models: Random Forest and Multi Layer Perceptrons
+We begin by encoding the review text data using [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html). This encoded data undergoes dimension reduction through PCA. Subsequently, the transformed data feeds into two different models: Random Forest and Multi-Layer Perceptrons.
 
 
 # Results
