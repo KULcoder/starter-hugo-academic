@@ -65,5 +65,5 @@ email: ''
 highlight_name: true
 ---
 
-Enthusiast in Data Science and AI. Eager to deepen my understanding of AI and Computer Science with a commitment to ensuring technology transforms society positively. Detail-oriented and dedicated to seeking truth in complex contradictions. Strong advocate for equality and ethical AI applications.
+An enthusiast in Data Science and AI. Eager to deepen my understanding of AI and Computer Science with a commitment to ensuring technology transforms society positively. Detail-oriented and dedicated to seeking truth in complex contradictions. Strong advocate for equality and ethical AI applications.
 {style="text-align: justify;"}
