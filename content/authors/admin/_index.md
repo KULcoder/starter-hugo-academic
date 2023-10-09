@@ -65,5 +65,5 @@ email: ''
 highlight_name: true
 ---
 
-Machine learning, artificial intelligence, and data science have great potential of shaping the future society. I am commited to use those technologies to decrease inequality and improve the quality of life for everyone.
+Enthusiast in Data Science and AI. Eager to deepen my understanding of AI and Computer Science with a commitment to ensuring technology transforms society positively. Detail-oriented and dedicated to seeking truth in complex contradictions. Strong advocate for equality and ethical AI applications.
 {style="text-align: justify;"}
