@@ -1,6 +1,6 @@
 ---
 title: Beyond Lockdown - Decoding China's Pandemic Opening
-summary: An interactive visualization that unveils the progression of the pandemic using search engine data, following the cessation of official data releases.
+summary:  With the cessation of official data releases, unveils the progression of the pandemic using search engine data.
 tags:
   - Data Visualization
 date: "2023-06-01T00:00:00Z"
