@@ -6,7 +6,7 @@ tags:
 date: "2024-03-26T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://kulcoder.github.io/baidu_search_trend/
+external_link: https://hulicheng117.github.io/DSC180-website/
 
 image:
   caption: Features Captured with AGOP/NFM
