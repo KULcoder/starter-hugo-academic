@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Undergraduate Student in Data Science
+role: Graduate Student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -33,9 +33,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: MS in Computer Science
+      institution: University of California, San Diego
+      year: 2024-2026
     - course: BS in Data Science
       institution: University of California, San Diego
-      year: 2024
+      year: 2019-2024
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
