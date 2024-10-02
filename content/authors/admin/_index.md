@@ -68,5 +68,5 @@ email: ''
 highlight_name: true
 ---
 
-An enthusiast in Data Science and AI. Eager to deepen my understanding of AI and Computer Science with a commitment to ensuring technology transforms society positively. Detail-oriented and dedicated to seeking truth in complex contradictions. Strong advocate for equality and ethical AI applications.
+Keyu Long is a data science and machine learning enthusiast with a Bachelor of Science in Data Science from UCSD and is currently pursuing a Master’s in Computer Science. With strong skills in Python, PyTorch, and deep learning frameworks, Keyu has contributed to research projects such as biologically inspired neural networks and novel CNN initialization methods. They have a proven track record in optimizing machine learning models and are passionate about applying innovative solutions to real-world problems.
 {style="text-align: justify;"}
