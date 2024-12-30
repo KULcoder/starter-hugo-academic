@@ -12,4 +12,7 @@ image:
   caption: Photo by MidJourney
   focal_point: Smart
 
+links:
+url_code: 'https://github.com/KULcoder/baidu_search_trend'
+
 ---
