@@ -26,8 +26,6 @@ slides: ""
 ---
 (Detailed methods and results can be found in the source code.)
 
-Constructing...
-
 # Intro
 Text classification is a classic NLP task. As different strong & new models being developed, I tried some popular choices of models doing text classification. My ultimate target is testing: is it practical to fine tune a LLM and use it to do text classification on local machine? I test this with toxic comment classification task, which is quite useful in maintaining a healthy internet environment.
 
@@ -51,6 +49,7 @@ After transformer being developed, [BERT](https://arxiv.org/abs/1810.04805) and 
 One specific trend in NLP nowadays is to use one unified model for all types of nlp tasks. But how can we use LLM to do text classification? I pick META's recent release LLAMA 3.2 (September 2024) 1B model, I designed a prompt to ask for direct answer whether a comment is toxic or not. With this prompt, I used the LORA to finetune the model for our task.
 
 # Results
+There is basically no hyper-parameter tuning: I picked mostly the default hyper-parameters.
 ## Performance
 |          | Train Acc | Test Acc |
 | -------- | --------- | -------- |
@@ -67,9 +66,9 @@ One specific trend in NLP nowadays is to use one unified model for all types of 
 ### Confusion Matrix LLAMA 1B
 ![BERT Confusion Matrix](images/CM_LLM.png)
 ## Run Time
-
+Both LSA and Word2Vec method has training time and inference time in seconds (<30s). The BERT and LLAMA models requires 20~40 minutes time to fine tune and 1~10 mintues time to do inference.
 # Discussion
-
+The classic model LSA and Word2Vec are very efficient and both of them reach very good results, they are ideal choices if the accuracy requirement is not too high. On the other hand, if we want to obtain better results, BERT and LLM are all good choices. Especially when we can fine tuning LLM with LORA, which the cost is not too high. Such LLMs can be easily used for other similar tasks.
 <!-- # EDA
 
 ## Business Rating Maps
