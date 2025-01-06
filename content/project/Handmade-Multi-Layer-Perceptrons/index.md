@@ -12,7 +12,8 @@ image:
   focal_point: Smart
 
 links:
-url_code: 'https://github.com/KULcoder/Multi-Layer-Perceptron-with-Cupy-and-Application'
+# url_code: 'https://github.com/KULcoder/Multi-Layer-Perceptron-with-Cupy-and-Application'
+url_code: ''
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -54,7 +55,7 @@ Source: [MNIST](https://www.openml.org/search?type=data&status=active&id=554)
 
 **Test Accuracy**: ~97%
 
-# How to Use
+<!-- # How to Use
 1. Copy following files
   - NeuralNet.py
   - Util.py
@@ -107,4 +108,4 @@ Source: [MNIST](https://www.openml.org/search?type=data&status=active&id=554)
   L2_constant: 0
   momentum: False
   momentum_gamma: 0.9
-  ```
+  ``` -->
